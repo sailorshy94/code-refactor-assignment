@@ -23,6 +23,7 @@ header h1 {
 header h1 .seo {
     color: #d9dcd6;
 }
+
 /* changed div selector to nav */
 header nav {
     padding-top: 15px;
@@ -32,9 +33,10 @@ header nav {
     font-size: 20px;
 }
 
-header nav ul {
+/* commented out needless header nav ul selector  */
+/* header nav ul { search-engine-optimization
     list-style-type: none;
-}
+}*/
 
 header nav ul li {
     display: inline-block;
