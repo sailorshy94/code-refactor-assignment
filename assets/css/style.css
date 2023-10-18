@@ -77,6 +77,7 @@ p {
     margin-left: 20px;
 }
 
+/* changed .benefits header selector to only select aside element */
 aside {
     margin-right: 20px;
     padding: 20px;
