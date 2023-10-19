@@ -144,7 +144,8 @@ aside section {
     max-width: 150px;
 }
 
-.search-engine-optimization {
+/* changed selector from class to id  */
+#search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -171,7 +172,8 @@ aside section {
     color: #ffffff;
 }
 
-.search-engine-optimization img {
+/* changed selector from class to id  */
+#search-engine-optimization img {
     max-height: 200px;
 }
 
@@ -183,7 +185,8 @@ aside section {
     max-height: 200px;
 }
 
-.search-engine-optimization h2 {
+/* changed selector from class to id  */
+#search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
