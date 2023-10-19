@@ -154,7 +154,8 @@ aside section {
     color: #ffffff;
 }
 
-.online-reputation-management {
+/* changed selector from class to id  */
+#online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -163,7 +164,8 @@ aside section {
     color: #ffffff;
 }
 
-.social-media-marketing {
+/* changed selector from class to id  */
+#social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -177,11 +179,13 @@ aside section {
     max-height: 200px;
 }
 
-.online-reputation-management img {
+/* changed selector from class to id  */
+#online-reputation-management img {
     max-height: 200px;
 }
 
-.social-media-marketing img {
+/* changed selector from class to id  */
+#social-media-marketing img {
     max-height: 200px;
 }
 
@@ -191,12 +195,14 @@ aside section {
     font-size: 36px;
 }
 
-.online-reputation-management h2 {
+/* changed selector from class to id  */
+#online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.social-media-marketing h2 {
+/* changed selector from class to id  */
+#social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
