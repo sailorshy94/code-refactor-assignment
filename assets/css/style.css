@@ -113,7 +113,8 @@ footer h2 {
     margin-left: 25px;
 }
 
-.content {
+/* changed selector from class to main */
+main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
