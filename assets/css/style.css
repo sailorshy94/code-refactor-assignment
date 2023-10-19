@@ -132,6 +132,7 @@ main {
     max-width: 150px;
 }
 
+/* Changed id selector to match new element selector */
 /* Changed selector from class to id  */
 .assets {
     margin-bottom: 20px;
