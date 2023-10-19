@@ -138,7 +138,7 @@ main {
 }
 */
 
-/* Condensed three .benefits sections into one style rule with .benefits class selector*/
+/* Condensed three benefits sections into one style rule with .benefits class selector*/
 .benefits {
     margin-bottom: 10px;
     text-align: center;
@@ -161,6 +161,14 @@ main {
 }
 */
 
+/* Condensed three benefits img style rules into one .benefits img rule */
+.benefits img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/* Commented out three benefits img style rules */
+/* 
 .benefit-lead img {
     display: block;
     margin: 10px auto;
@@ -178,6 +186,7 @@ main {
     margin: 10px auto;
     max-width: 150px;
 }
+ */
 
 /* Changed selector from class to id  */
 #search-engine-optimization {
