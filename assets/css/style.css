@@ -70,6 +70,17 @@ aside section {
     color: #ffffff;
 }
 
+ /* Commented out id selector style rule for three img sections and combined into one rule */
+ aside img {
+    max-height: 200px
+}
+
+/* Commented out three separate h2 style rules and combined them into one */
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
 .hero {
     height: 800px;
     width: 100%;
@@ -190,11 +201,6 @@ aside section {
     max-height: 200px;
 }
  */
- /* Commented out id selector style rule for three img sections and combined into one rule */
-aside img {
-    max-height: 200px
-}
-
 
 /* changed selector from class to id  */
 /* #search-engine-optimization h2 { 
@@ -214,12 +220,6 @@ aside img {
     font-size: 36px;
 }
 */
-
-/* Commented out three separate h2 style rules and combined them into one */
-h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
 
 .footer {
     padding: 30px;
