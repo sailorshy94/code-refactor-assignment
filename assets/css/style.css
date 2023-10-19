@@ -94,6 +94,13 @@ footer h2 {
     font-size: 20px;
 }
 
+/* changed selector from class to main */
+main {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
 .hero {
     height: 800px;
     width: 100%;
@@ -113,13 +120,7 @@ footer h2 {
     margin-left: 25px;
 }
 
-/* changed selector from class to main */
-main {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
+/* Commented out three .benefits style elements and combined into aside style rule */
 /*
 .benefit-lead {
     margin-bottom: 32px;
@@ -137,6 +138,13 @@ main {
 }
 */
 
+/* Condensed three .benefits sections into one style rule with .benefits class selector*/
+.benefits {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/* Commented out three .benefit sections */
+/*  
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -151,6 +159,7 @@ main {
     margin-bottom: 10px;
     text-align: center;
 }
+*/
 
 .benefit-lead img {
     display: block;
@@ -170,7 +179,7 @@ main {
     max-width: 150px;
 }
 
-/* changed selector from class to id  */
+/* Changed selector from class to id  */
 #search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -180,7 +189,7 @@ main {
     color: #ffffff;
 }
 
-/* changed selector from class to id  */
+/* Changed selector from class to id  */
 #online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -190,7 +199,7 @@ main {
     color: #ffffff;
 }
 
-/* changed selector from class to id  */
+/* Changed selector from class to id  */
 #social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -200,35 +209,36 @@ main {
     color: #ffffff;
 }
 
-/* changed selector from class to id  */
+/* Commented out img and h2 rules and condensed them */
+/* Changed selector from class to id  */
 /*#search-engine-optimization img {
     max-height: 200px;
 }
 
-/* changed selector from class to id  */
+/* Changed selector from class to id  */
 /*#online-reputation-management img {
     max-height: 200px;
 }
 
-/* changed selector from class to id  */
+/* Changed selector from class to id  */
 /*#social-media-marketing img {
     max-height: 200px;
 }
  */
 
-/* changed selector from class to id  */
+/* Changed selector from class to id  */
 /* #search-engine-optimization h2 { 
     margin-bottom: 20px;
     font-size: 36px;
 }
 */
-/* changed selector from class to id  */
+/* Changed selector from class to id  */
 /* #online-reputation-management h2 { 
     margin-bottom: 20px;
     font-size: 36px;
 }
 /*  
-/* changed selector from class to id  */
+/* Changed selector from class to id  */
 /* #social-media-marketing h2 { 
     margin-bottom: 20px;
     font-size: 36px;
