@@ -24,7 +24,7 @@ header h1 .seo {
     color: #d9dcd6;
 }
 
-/* Changed div selector to nav */
+/* changed div selector to nav */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -33,10 +33,11 @@ header nav {
     font-size: 20px;
 }
 
-/* Commented out needless header nav ul selector  */
+/* commented out needless header nav ul selector  */
 /* header nav ul { search-engine-optimization
     list-style-type: none;
 }*/
+
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
@@ -51,7 +52,7 @@ p {
     font-size: 16px;
 }
 
-/* Changed .benefits header selector to only select aside element */
+/* changed .benefits header selector to only select aside element */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -80,7 +81,7 @@ h2 {
     font-size: 36px;
 }
 
-/* Changed selector from class to footer */
+/* changed selector from class to footer */
 footer {
     padding: 30px;
     clear: both;
@@ -88,12 +89,12 @@ footer {
     text-align: center;
 }
 
-/* Changed selector from class to footer with nested h2 element */
+/* changed selector from class to footer with nested h2 element */
 footer h2 {
     font-size: 20px;
 }
 
-/* Changed selector from class to main */
+/* changed selector from class to main */
 main {
     width: 75%;
     display: inline-block;
@@ -132,9 +133,8 @@ main {
     max-width: 150px;
 }
 
-/* Changed id selector to match new element selector */
 /* Changed selector from class to id  */
-.assets {
+#search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -162,6 +162,7 @@ main {
     background-color: #0072bb;
     color: #ffffff;
 }
+
 
 /* Commented out three .benefits style elements and combined into aside style rule */
 /*
