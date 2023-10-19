@@ -133,7 +133,7 @@ main {
 }
 
 /* Changed selector from class to id  */
-#search-engine-optimization {
+.assets {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
