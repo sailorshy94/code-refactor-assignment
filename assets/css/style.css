@@ -58,10 +58,6 @@ main {
     margin-left: 20px;
 }
 
-p {
-    font-size: 16px;
-}
-
 /* Changed selector from #id to article, removed redundant style rules  */
 article {
     margin-bottom: 20px;
@@ -72,6 +68,15 @@ article {
     color: #ffffff;
 }
 
+/* Commented out three separate h2 style rules and combined them into one */
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+p {
+    font-size: 16px;
+}
 
 /* changed .benefits header selector to only select aside element */
 aside {
@@ -94,12 +99,6 @@ aside section {
  /* Commented out id selector style rule for three img sections and combined into one rule */
  aside img {
     max-height: 200px
-}
-
-/* Commented out three separate h2 style rules and combined them into one */
-h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
 }
 
 /* changed selector from class to footer */
