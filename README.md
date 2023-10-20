@@ -7,7 +7,7 @@ This project was completed in order to demonstrate proper knowledge of how to re
 Through the completion of this project, I learned how to implement the best practices for refactoring code, and the instances in which it is necessary versus unnecessary. This challenge also displayed to me the importance of tracking changes with inline commentary and frequent git add/commit actions. As I worked through this challenge I also gained a greater understanding of how CSS rules function, and how we as developers can use CSS to facilitate higher standards of accessiblity on websites. This project has helped me comprehend the large role that SEO plays within webpage success, and accessibility. 
 
 ## Screenshot
-![screenshot of Code Refactor Assignment](assets\screenshot\horiseon-social-solution-services-inc-site.png)
+![Screenshot of Code Refactor Assignment](./screenshot/horiseon-social-solution-services-inc-site.png)
 
 ## Link
 [Code Refactor Assignment URL](https://sailorshy94.github.io/code-refactor-assignment)
