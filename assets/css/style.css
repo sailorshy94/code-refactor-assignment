@@ -48,9 +48,27 @@ a {
     text-decoration: none;
 }
 
+/* changed selector from class to main */
+main {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
 p {
     font-size: 16px;
 }
+
+/* Changed selector from #id to article, removed redundant style rules  */
+article {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
 
 /* changed .benefits header selector to only select aside element */
 aside {
@@ -94,13 +112,6 @@ footer h2 {
     font-size: 20px;
 }
 
-/* changed selector from class to main */
-main {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
 .hero {
     height: 800px;
     width: 100%;
@@ -131,34 +142,4 @@ main {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
-
-/* Changed selector from class to id  */
-#search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/* Changed selector from class to id  */
-#online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/* Changed selector from class to id  */
-#social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
 }
