@@ -1,7 +1,9 @@
+/* Added a cursor pointer to improve webpage accessibility */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    cursor: pointer;
 }
 
 body {
@@ -33,11 +35,6 @@ header nav {
     font-size: 20px;
 }
 
-/* commented out needless header nav ul selector  */
-/* header nav ul { search-engine-optimization
-    list-style-type: none;
-}*/
-
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
@@ -46,6 +43,12 @@ header nav ul li {
 a {
     color: #ffffff;
     text-decoration: none;
+}
+
+/* Added style rules for accessibility when links are hovered over */
+a:hover {
+    background-color: rgba(255, 255, 255, .90);
+    color: #0072bb;
 }
 
 /* changed selector from class to main */
